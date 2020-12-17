@@ -38,7 +38,7 @@ export default function Form(props) {
             </div>
 
             <StyledGeneral>
-                <div class='genInfoDiv'>
+                <div className='genInfoDiv'>
                 <label>Name&nbsp;
                 <input
                     value={values.name}
@@ -72,7 +72,7 @@ export default function Form(props) {
                 />
                 </label>
                 </div>
-                <button disabled={disabled} >submit</button>
+                <button className='submitButton' disabled={disabled} >submit</button>
             </StyledGeneral>
             <hr/>
         </form>
